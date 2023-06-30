@@ -34,7 +34,8 @@ const Home = () => {
 
     return (
         <div>
-            <Outlet /> //this will render any other components ahead of below
+            {/* //this will render any other components ahead of below */}
+            {/* <Outlet /> */}
             <Directory categories={categories} />
         </div>
     );
